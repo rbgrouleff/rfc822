@@ -13,6 +13,9 @@
 # * domains starting or ending in a hyphen
 # * atoms starting or ending in a hyphen
 #
+# Patched by Rasmus Bang Grouleff, including:
+# * possibility to require at least one subdomain
+#
 # Licensed under a Creative Commons Attribution-ShareAlike 2.5 License
 # http://creativecommons.org/licenses/by-sa/2.5/
 #
