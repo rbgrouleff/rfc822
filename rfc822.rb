@@ -20,7 +20,7 @@
 # http://creativecommons.org/licenses/by-sa/2.5/
 #
 module RFC822
-  def self.EmailAddress(require_tld = false)
+  def self.email_address(require_tld = false)
     qtext = '[^\\x0d\\x22\\x5c\\x80-\\xff]'
     dtext = '[^\\x0d\\x5b-\\x5d\\x80-\\xff]'
     atom_middle = '[^\\x00-\\x20\\x22\\x28\\x29\\x2c\\x2e\\x3a-' +
